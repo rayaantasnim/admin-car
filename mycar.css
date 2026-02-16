@@ -40,7 +40,7 @@ h4{
 }
 
 h6{
-	font-size:25px;
+	font-size:45px;
 	background-color: lightgreen;
 	color: black;
 	text-align: center;
@@ -89,4 +89,5 @@ span{
 			width: 90%;
 		}
 	}
+
 }
