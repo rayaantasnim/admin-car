@@ -37,6 +37,8 @@ h3{
 h4{
 	background-color:skyblue;
 	color: black;
+	font-size: 40px;
+	text-align: center;
 }
 
 h6{
@@ -91,3 +93,4 @@ span{
 	}
 
 }
+
