@@ -7,17 +7,24 @@ body{
 }
 
 
-img{
-	border:2px solid black;
-	background-color:lightblue;
-	padding:10px;
-	border-radius:10%;
-	text-align: center;
-	width:45%;
+/* Images */
+img {
+  width: 45%;
+  transition: all 0.3s ease;
+  border-radius: 12px;
+  border: 3px solid #FF8C00;
+  margin: 10px;
 }
 
-img:hover{
-	transform:scale(1.1);
+img:hover {
+  opacity: 0.95;
+  transform: scale(1.05);
+  border-color: #FFD700;
+  box-shadow: 0 0 12px #FF8C00;
+}
+
+img:active {
+  transform: scale(0.95);
 }
 
 h2{
@@ -93,4 +100,5 @@ span{
 	}
 
 }
+
 
