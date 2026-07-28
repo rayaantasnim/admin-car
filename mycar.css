@@ -36,7 +36,7 @@ h3 {
 }
 
 h6 {
-  font-size: 1rem;
+  font-size: 3rem;
   color: #90caf9;
 }
 
@@ -78,6 +78,7 @@ ol {
 }
 
 ol li {
+  margin-left: 20px !important;
   padding: 8px 0;
   font-size: 1.1rem;
   color: #f5f5f5;
@@ -92,7 +93,7 @@ ol li:hover {
 
 /* Footer logo */
 a img {
-  max-width: 120px;
+  min-width: 50%;
   margin: 20px 0;
   transition: transform 0.4s ease;
 }
@@ -171,5 +172,3 @@ h4:hover {
     min-width:90%;
   }
 }
-
-
